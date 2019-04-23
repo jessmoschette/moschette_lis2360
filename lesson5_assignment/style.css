@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document created by Jessica Moschette, Spring 2019*/
+
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	line-height: 2em;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0em;
+	color: #400D18;
+}
+h1 {
+	font-size: 30px;
+	padding: 2px 0;
+	font-variant: small-caps;
+	letter-spacing: .1em;
+	line-height: 1em;
+	color: #400D18;
+}
+h2 {
+	font-size: 20px;
+	padding: 5px;
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	background-color: #FF3560;
+}
+h3 {
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	border-bottom-width: 4px;
+	border-bottom-style: inset;
+	border-bottom-color: #FF3560;
+	padding: 5px 0;
+	font-variant: small-caps;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #7F1A30;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #7F1A30;
+	text-decoration: none;
+}
+a:hover {
+	color: #D3D3D3;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 5px;
+}
+ol {
+	margin-left: 16px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FF3560 1.5px;
+}
+td {
+	padding: 6px;
+	border: solid #FF3560 1.5px;
+}
+th {
+	font-weight: bold;
+	background-color: #FF3560;
+	text-align: center;
+	padding: 8px;
+	border: solid #FF3560 1.5px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FF3560 3px;
+}
+
+img {
+	border: solid #FF3560 3px;
+
+}
+
+iframe {
+	border: solid #FF3560 3px;
+	padding: 10px;
+	margin: 10px;
+}
